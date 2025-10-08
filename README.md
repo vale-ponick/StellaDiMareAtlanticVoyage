@@ -1,12 +1,16 @@
 
 # Stella Di Mare: Nautical Calculator
 
-Swift-based nautical navigation calculator for marine calculations.
+Swift-based tools for marine navigation and Atlantic route calculations.
 
 ## Features
-
-- Nautical mile to kilometer conversion  
+- Nautical mile to kilometer conversion
+- Brazil to France route analysis  
 - Voyage time estimation
-- Route analysis
-- Fuel consumption calculations
-  
+- Marine coordinate calculations
+- Fuel consumption planning
+
+## Technical Stack
+- Swift 5.9
+- Xcode project
+- iOS/macOS compatible
