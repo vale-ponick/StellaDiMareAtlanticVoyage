@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E486E02E96396800EA9405 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E486DF2E96396800EA9405 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5801F8892E94A23800D4945B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5801F88B2E94A23800D4945B /* NauticalCalcProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = NauticalCalcProject; path = /Users/valeriaponomareva/Documents/StellaDiMareAtlanticVoyage/NauticalCalc/build/Debug/NauticalCalcProject; sourceTree = "<absolute>"; };
+		587019CE2E9625A300672622 /* mapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapPoint.swift; sourceTree = "<group>"; };
+		587019D12E96267500672622 /* сoordinateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "сoordinateCalculator.swift"; sourceTree = "<group>"; };
+		587019D32E9626A800672622 /* distanceCalculation.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceCalculation.swift.swift; sourceTree = "<group>"; };
+		587019D62E9628A500672622 /* atlanticRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlanticRoute.swift; sourceTree = "<group>"; };
+		587019D92E962D1400672622 /* nauticalConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nauticalConverter.swift; sourceTree = "<group>"; };
+		587019DC2E962DB200672622 /* fuelCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuelCalculator.swift; sourceTree = "<group>"; };
+		587019DF2E962E3E00672622 /* GeoFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFormatters.swift; sourceTree = "<group>"; };
+		587019E22E962F9A00672622 /* ruiteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ruiteStorage.swift; sourceTree = "<group>"; };
+		587019E52E96314D00672622 /* infoDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoDescription.swift; sourceTree = "<group>"; };
+		587019E82E96323400672622 /* routePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routePrinter.swift; sourceTree = "<group>"; };
+		58E486DF2E96396800EA9405 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		58E486E12E9655F700EA9405 /* routeAnalisis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routeAnalisis.swift; sourceTree = "<group>"; };
+		58E486E32E9665E000EA9405 /* brazilToFranceRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazilToFranceRoute.swift; sourceTree = "<group>"; };
+		58E486E52E9669C700EA9405 /* displayRouteDistances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayRouteDistances.swift; sourceTree = "<group>"; };
+		58E486E72E966C1300EA9405 /* routerPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerPrinter.swift; sourceTree = "<group>"; };
+		58E486E92E96702100EA9405 /* routeStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routeStatistics.swift; sourceTree = "<group>"; };
+		58E486EC2E9672A500EA9405 /* statisticSegmentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statisticSegmentTime.swift; sourceTree = "<group>"; };
+		58E486EF2E9675EE00EA9405 /* completeBrazilToFrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeBrazilToFrance.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5801F8882E94A23800D4945B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5801F8822E94A23800D4945B = {
+			isa = PBXGroup;
+			children = (
+				58E486EE2E96757A00EA9405 /* Examples */,
+				58E486EB2E96723800EA9405 /* timeCalculation */,
+				587019E72E96320B00672622 /* Display */,
+				587019E42E96312E00672622 /* ProjectInfo */,
+				587019E12E962F1600672622 /* RuiteData */,
+				587019DE2E962E0100672622 /* CoordinateUtils */,
+				587019DB2E962D7C00672622 /* FuelServices */,
+				587019D82E962CC000672622 /* MarineMetrics */,
+				587019D52E96283A00672622 /* RuiteBuilder */,
+				587019D02E96262100672622 /* NavigationTools */,
+				587019CD2E96251200672622 /* Models */,
+				58E486DF2E96396800EA9405 /* main.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		587019CD2E96251200672622 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				587019CE2E9625A300672622 /* mapPoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		587019D02E96262100672622 /* NavigationTools */ = {
+			isa = PBXGroup;
+			children = (
+				587019D12E96267500672622 /* сoordinateCalculator.swift */,
+				587019D32E9626A800672622 /* distanceCalculation.swift.swift */,
+				58E486E32E9665E000EA9405 /* brazilToFranceRoute.swift */,
+				58E486E52E9669C700EA9405 /* displayRouteDistances.swift */,
+				58E486E72E966C1300EA9405 /* routerPrinter.swift */,
+			);
+			path = NavigationTools;
+			sourceTree = "<group>";
+		};
+		587019D52E96283A00672622 /* RuiteBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				587019D62E9628A500672622 /* atlanticRoute.swift */,
+				58E486E12E9655F700EA9405 /* routeAnalisis.swift */,
+				58E486E92E96702100EA9405 /* routeStatistics.swift */,
+			);
+			path = RuiteBuilder;
+			sourceTree = "<group>";
+		};
+		587019D82E962CC000672622 /* MarineMetrics */ = {
+			isa = PBXGroup;
+			children = (
+				587019D92E962D1400672622 /* nauticalConverter.swift */,
+			);
+			path = MarineMetrics;
+			sourceTree = "<group>";
+		};
+		587019DB2E962D7C00672622 /* FuelServices */ = {
+			isa = PBXGroup;
+			children = (
+				587019DC2E962DB200672622 /* fuelCalculator.swift */,
+			);
+			path = FuelServices;
+			sourceTree = "<group>";
+		};
+		587019DE2E962E0100672622 /* CoordinateUtils */ = {
+			isa = PBXGroup;
+			children = (
+				587019DF2E962E3E00672622 /* GeoFormatters.swift */,
+			);
+			path = CoordinateUtils;
+			sourceTree = "<group>";
+		};
+		587019E12E962F1600672622 /* RuiteData */ = {
+			isa = PBXGroup;
+			children = (
+				587019E22E962F9A00672622 /* ruiteStorage.swift */,
+			);
+			path = RuiteData;
+			sourceTree = "<group>";
+		};
+		587019E42E96312E00672622 /* ProjectInfo */ = {
+			isa = PBXGroup;
+			children = (
+				587019E52E96314D00672622 /* infoDescription.swift */,
+			);
+			path = ProjectInfo;
+			sourceTree = "<group>";
+		};
+		587019E72E96320B00672622 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				587019E82E96323400672622 /* routePrinter.swift */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		58E486EB2E96723800EA9405 /* timeCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				58E486EC2E9672A500EA9405 /* statisticSegmentTime.swift */,
+			);
+			path = timeCalculation;
+			sourceTree = "<group>";
+		};
+		58E486EE2E96757A00EA9405 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				58E486EF2E9675EE00EA9405 /* completeBrazilToFrance.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5801F88A2E94A23800D4945B /* NauticalCalcProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5801F8922E94A23800D4945B /* Build configuration list for PBXNativeTarget "NauticalCalcProject" */;
+			buildPhases = (
+				5801F8872E94A23800D4945B /* Sources */,
+				5801F8882E94A23800D4945B /* Frameworks */,
+				5801F8892E94A23800D4945B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NauticalCalcProject;
+			packageProductDependencies = (
+			);
+			productName = NauticalCalc;
+			productReference = 5801F88B2E94A23800D4945B /* NauticalCalcProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5801F8832E94A23800D4945B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					5801F88A2E94A23800D4945B = {
+						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2600;
+					};
+				};
+			};
+			buildConfigurationList = 5801F8862E94A23800D4945B /* Build configuration list for PBXProject "NauticalCalcProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5801F8822E94A23800D4945B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5801F8822E94A23800D4945B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5801F88A2E94A23800D4945B /* NauticalCalcProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5801F8872E94A23800D4945B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E486E02E96396800EA9405 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5801F8902E94A23800D4945B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5801F8912E94A23800D4945B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5801F8932E94A23800D4945B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5801F8942E94A23800D4945B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5801F8862E94A23800D4945B /* Build configuration list for PBXProject "NauticalCalcProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5801F8902E94A23800D4945B /* Debug */,
+				5801F8912E94A23800D4945B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5801F8922E94A23800D4945B /* Build configuration list for PBXNativeTarget "NauticalCalcProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5801F8932E94A23800D4945B /* Debug */,
+				5801F8942E94A23800D4945B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5801F8832E94A23800D4945B /* Project object */;
+}
